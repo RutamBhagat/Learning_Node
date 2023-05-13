@@ -5,12 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "lint": "ejslint ./**/*.ejs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ejs-lint": "^2.0.0",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
